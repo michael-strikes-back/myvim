@@ -8,14 +8,20 @@ set noswapfile
 set noundofile
 if has("gui")
 	set guioptions -=T
-	set guifont=Consolas:h10
+	if has("win32")
+		set guifont=Consolas:h10
+	endif
 	set lines=80
 	set columns=140
 endif
 set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 set nu
 set autoindent
+set copyindent
+set preserveindent
 set textwidth=0 
+set hlsearch
+set vb
 set fo-=t
 
 " newlines in command mode
