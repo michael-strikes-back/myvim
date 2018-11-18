@@ -18,7 +18,7 @@ set textwidth=0
 set fo-=t
 set noundofile
 
-" mjelley 08-15-17 - newlines
+" newlines in command mode
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 
