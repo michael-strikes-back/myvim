@@ -5,6 +5,7 @@ endif
 
 set nobackup
 set noswapfile
+set noundofile
 if has("gui")
 	set guioptions -=T
 	set guifont=Consolas:h10
@@ -16,7 +17,6 @@ set nu
 set autoindent
 set textwidth=0 
 set fo-=t
-set noundofile
 
 " newlines in command mode
 nmap <S-Enter> O<Esc>
