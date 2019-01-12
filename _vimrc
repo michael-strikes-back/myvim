@@ -24,6 +24,8 @@ set hlsearch
 set vb
 set fo-=t
 
+au BufRead,BufNewFile *.txt set lbr
+
 " newlines in command mode
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
