@@ -6,7 +6,7 @@ endif
 set nobackup
 set noswapfile
 set noundofile
-if has("gui")
+if has("gui_running")
 	set guioptions -=T
 	if has("win32")
 		set guifont=Consolas:h10
