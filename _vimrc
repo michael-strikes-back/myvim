@@ -1,3 +1,5 @@
+" a huge mess; not much of value here.
+
 if has("win32")
 	source $VIMRUNTIME/../_vimrc
 	colorscheme zenburn
@@ -63,7 +65,7 @@ function! GetMaxLineLength()
 endfunction
 
 function! SetCoMaxLine()
-  " mjelley - not sure why +3
+  " $NOTE - not sure why +3
   let maxLineLength = (GetMaxLineLength()+3)
   " $TODO somehow query full screen column count without going full screen?
   let maxLineLength = max([min([maxLineLength, 260]), 80])
